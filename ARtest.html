@@ -6,20 +6,13 @@
   <body style="margin : 0px; overflow: hidden;">
     <a-scene 
     renderer="logarithmicDepthBuffer: true;"
+    renderer="gammaOutput: true"
     embedded arjs>
 
       <a-assets>
-        <a-asset-item id="light" src="models/XMAS_light.gltf" color="#2eff00"></a-asset-item>
         <a-asset-item id="decor" src="models/XMAS_AR.gltf"></a-asset-item>
       </a-assets>
       <a-marker preset="hiro">
-        <a-entity
-
-          position="0 0 0"
-          scale="1 1 1"
-          rotation="0 -90 90"
-          gltf-model="#light"
-        ></a-entity>
         <a-entity
           position="0 0 0"
           scale="1 1 1"
