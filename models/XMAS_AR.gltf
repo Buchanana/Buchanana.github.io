@@ -2493,6 +2493,11 @@
 		},
 		{
 			"doubleSided":true,
+			"emissiveFactor":[
+				0.20000000298023224,
+				0.06490199662598961,
+				0
+			],
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularFactor":0
@@ -2504,54 +2509,48 @@
 			"name":"gold.004",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
-					0.7612703442573547,
-					0.31355321407318115,
-					0.045980826020240784,
-					1
-				],
-				"roughnessFactor":0.30000001192092896
-			}
-		},
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularFactor":0
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
-				}
-			},
-			"name":"gold",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.8000000715255737,
-					0.35224130749702454,
-					0.06661283224821091,
-					1
-				],
-				"roughnessFactor":0.20000000298023224
-			}
-		},
-		{
-			"doubleSided":true,
-			"extensions":{
-				"KHR_materials_specular":{
-					"specularFactor":0
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
-				}
-			},
-			"name":"silver",
-			"pbrMetallicRoughness":{
-				"baseColorFactor":[
-					0.4999716579914093,
-					0.032774668186903,
+					1,
+					0.1501525640487671,
 					0,
 					1
 				],
-				"roughnessFactor":0.30000001192092896
+				"roughnessFactor":0
+			}
+		},
+		{
+			"doubleSided":true,
+			"emissiveFactor":[
+				0.09999999403953552,
+				0.034890721148805426,
+				0
+			],
+			"name":"gold",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.8000074625015259,
+					0.3141994774341583,
+					0,
+					1
+				],
+				"roughnessFactor":0
+			}
+		},
+		{
+			"doubleSided":true,
+			"emissiveFactor":[
+				0.19999998807907104,
+				0,
+				0.00022734169424523665
+			],
+			"name":"silver",
+			"pbrMetallicRoughness":{
+				"baseColorFactor":[
+					0.8000074625015259,
+					0,
+					0.0016532890731468797,
+					1
+				],
+				"roughnessFactor":0.2136363834142685
 			}
 		},
 		{
